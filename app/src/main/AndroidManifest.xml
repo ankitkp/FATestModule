@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ankit.fatestmodule">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q2" />
+        <activity android:name=".Q3" />
+        <activity android:name=".Q4" />
+        <activity android:name=".Q7" />
+        <activity android:name=".Q05" />
+        <activity android:name=".Q06" />
+        <activity android:name=".Q07" />
+        <activity android:name=".Q08" />
+        <activity android:name=".Q09" />
+        <activity android:name=".Q10" />
+        <activity android:name=".Q11" />
+        <activity android:name=".Q12" />
+        <activity android:name=".Q13" />
+        <activity android:name=".Q14" />
+        <activity android:name=".Q15" />
+        <activity android:name=".MyResult"></activity>
+    </application>
+
+</manifest>

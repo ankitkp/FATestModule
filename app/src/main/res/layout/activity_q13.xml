@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backpic1"
+    tools:context="com.example.vipulagarwal.fatestmodule.Q13">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="91dp"
+            android:textAlignment="center"
+            android:text="13. Does your child like movement activities?"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="107dp"
+            android:layout_marginLeft="100dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/yes"
+                android:layout_width="wrap_content"
+                android:layout_height="70px"
+                android:layout_alignEnd="@+id/textView2"
+                android:layout_below="@+id/radioGroup"
+                android:layout_marginEnd="67dp"
+                android:layout_marginTop="10dp"
+                android:text="YES" />
+
+            <RadioButton
+                android:id="@+id/no"
+                android:layout_width="wrap_content"
+                android:layout_height="70px"
+                android:layout_alignEnd="@+id/textView2"
+                android:layout_below="@+id/radioGroup"
+                android:layout_marginEnd="67dp"
+                android:layout_marginTop="10dp"
+                android:text="NO" />
+
+            <RadioButton
+                android:id="@+id/some"
+                android:layout_width="wrap_content"
+                android:layout_height="70px"
+                android:layout_alignEnd="@+id/textView2"
+                android:layout_below="@+id/radioGroup"
+                android:layout_marginEnd="67dp"
+                android:layout_marginTop="10dp"
+                android:text="SOMETIMES" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroup"
+            android:layout_centerHorizontal="true"
+            android:background="#3571C2"
+            android:layout_marginTop="50dp"
+            android:onClick="nextQ"
+            android:text="Next" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
